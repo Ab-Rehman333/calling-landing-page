@@ -1,0 +1,356 @@
+/* font famity  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Source+Code+Pro:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+/* variables  */
+:root {
+  --btn-bg: #ffd62c;
+  --btn-color: #323436;
+
+  --white: #fff;
+  --black: #000000;
+
+  /* anchor tag  */
+  --anchor: #666;
+  --anchor-hover: #00aeef;
+
+  /* h1  */
+
+  --heading-color: #042c71;
+  --heading-font-size: 2.8rem;
+  --heading-font-weight: 700;
+
+  /* h3  */
+  --heading-color-h3: #000000;
+  --heading-font-size-h3: 1.4rem;
+  --heading-font-weight-h3: 400;
+
+  /* h4  */
+  --heading-color-h4: #3574b7;
+  --heading-font-size-h4: 1.68rem;
+  --heading-font-weight-h4: 900;
+
+  /* para  */
+  --para-font-size: 1.3rem;
+  --para-font-weight: 400;
+}
+
+/* utilies styling  */
+p {
+  font-size: var(--para-font-size);
+  font-weight: var(--para-font-weight);
+  line-height: normal;
+}
+h3 {
+  color: var(--heading-color-h3);
+  font-size: var(--heading-font-size-h3);
+  font-family: "Montserrat";
+  font-weight: var(--heading-font-weight-h3);
+}
+h4 {
+  color: var(--heading-color-h4);
+  font-size: var(--heading-font-size-h4);
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: var(--heading-font-weight-h4);
+}
+h1 {
+  font-size: var(--heading-font-size);
+  color: var(--heading-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: var(--heading-font-weight);
+  font-style: normal;
+}
+i {
+  cursor: pointer;
+}
+a {
+  color: var(--anchor) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--anchor-hover) !important;
+}
+
+/* top bar styling  */
+.top-bar {
+  border-bottom: 1px solid #ebebeb;
+  background-color: var(--white);
+  padding: 0.5em 0;
+}
+.top-left-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top-left-bar > .info:first-child {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.top-left-bar > .info:not(:first-child) {
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-left: 1px solid #f0f3f5;
+  padding-left: 0.6rem;
+}
+
+.top-left-bar > .info:first-child > a {
+  color: var(--black) !important;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.top-right-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.top-right-bar > div {
+  border-left: 1px solid #f0f3f5;
+  padding-left: 0.6rem;
+}
+.socail-media {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+}
+
+/* main header  */
+/* sticky header  */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  right: 0;
+  z-index: 999999999999;
+  
+  border-bottom: 1px solid #0000001a;
+}
+img.logo {
+  height: 4rem;
+}
+.form-control {
+  display: none;
+}
+.form-control.active {
+  display: block;
+}
+
+.dropdown-menu {
+  min-width: 202px;
+
+  border-radius: 0;
+}
+
+
+.dropdown-item {
+  border-bottom: 1px solid;
+  padding: 0.3em 11px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  border-left: 1px solid rgb(129, 116, 116) !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--black);
+  background-size: 55% 100%;
+  border-radius: 50%;
+}
+
+/* second seciton  */
+.third .top-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+.third .text {
+  margin-top: 1rem;
+}
+
+/* four section  */
+.four {
+  background-color: #fafafa;
+}
+
+.main {
+  display: flex;
+  gap: 0.9rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right-section-four {
+  margin-top: 2rem;
+}
+.styleImage {
+  width: 100%;
+}
+.right-section-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.button {
+  background-color: var(--btn-bg);
+  color: var(--btn-color) !important;
+  padding: 0.8rem 2rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: var(--black);
+  color: var(--white) !important;
+}
+
+/* fifth section  */
+.reverse {
+  background-color: white;
+}
+
+/* auto writing */
+.auto-writing {
+  background-image: url("images/seventh-section-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auto-wrting {
+  color: var(--white);
+}
+div#auto {
+    text-align: center;
+}
+
+.clients  img{
+    width: 100%;
+}
+.clients-slider
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.slick-slide {
+    width: 350px;
+  }
+
+
+  /* features  */
+  .inner-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255 255 255);
+    border: 1px solid #00000014;
+    padding: 0.4em;
+  }
+  .image-area > img{
+    width: 100%;
+  }
+  .icon-ser{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+  }
+
+  /* footer  */
+  footer  ul li {
+    list-style: none;
+  }
+ul{
+    padding-left: 0;
+}
+  .f-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.f-first a {
+    font-size: 1.4rem;
+    color: white !important;
+}
+.f-first > img {
+    height: 10rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 4em 0 0 0;
+    color: white;
+}
+.footer-menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+
+footer > .container-fluid:nth-child(2){
+    background-color: #292929;
+    padding-top:1em;
+    padding-bottom: 1em;
+
+}
+.footer-inner  ul {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 2rem;
+}
+
+.footer-inner  ul li{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-inner  ul li a{
+    color: var(--whtie) !important;
+}
+
+.social-icons-footer a {
+    background-color: rgba(255,255,255,.05);
+    height: 2.8em;
+    width: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons-footer a  > i{
+    color: white;
+}

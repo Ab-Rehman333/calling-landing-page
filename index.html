@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap css cdn link   -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+  <!-- fontawesome cdn lin k -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- main style cdn link -->
+  <link rel="stylesheet" href="index.css">
+  <!-- main responsive style cdn link -->
+  <link rel="stylesheet" href="responsiv.css">
+
+  <!-- main js script link  -->
+  <script src="index.js" defer></script>
+  <title>task</title>
+</head>
+
+<body>
+
+  <!-- header part  start -->
+  <!-- top bar start  -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="top-left-bar">
+            <div class="info">
+              <div class="first"><strong>Toll Free!</strong></div>
+              <a class="second" hfre="tel:+19159002219">
+                <strong> +19159002219 </strong> </a>
+            </div>
+            <div class="info">
+              <div class="first"><i class="fa-solid fa-location-dot"></i></div>
+              <a class="second" href="#">Find our Location</a>
+            </div>
+            <div class="info">
+              <div class="first"><i class="fa-solid fa-envelope"></i></div>
+              <a class="second" href="#">infosixer@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="top-right-bar">
+            <div class="socail-media">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="login-button">
+              <a href="#">login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- main header  -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="images/logo.png" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 me-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                industries
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+                <li><a class="dropdown-item" href="#">sublinks</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Jobs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Contact</a>
+            </li>
+
+          </ul>
+          <form class="d-flex align-items-center " role="search">
+            <input class="form-control me-2  block" type="search" placeholder="Search" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass toggleClass"></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header part  end -->
+
+  <!-- hero slider start  -->
+  <section class="hero">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/hero-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero-1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- hero slider end -->
+  <!-- third section start -->
+
+
+  <section class="third py-5">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center">
+          <h1>WHY CHOOSE SERVIXER?</h1>
+          <h3 class="mt-3">Diversified solutions to your Business Problems with Affordability</h3>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="box pt-5">
+            <div class="top-area">
+
+              <img src="images/second-section-1.jpg" alt="">
+
+              <div class="box-title">
+                <h4>AFFORDABILITY</h4>
+              </div>
+            </div>
+            <div class="text text-center">
+              <p>We are not the only ones
+                out there but what makes us different is our unique distinct ability to offer the best quality standards
+                at the most affordable prices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="box pt-5">
+            <div class="top-area">
+
+              <img src="images/second-section-2jpg.png" alt="">
+
+              <div class="box-title">
+                <h4>QUALITY</h4>
+              </div>
+            </div>
+            <div class="text text-center ">
+              <p>We are not the only ones
+                out there but what makes us different is our unique distinct ability to offer the best quality standards
+                at the most affordable prices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="box pt-5">
+            <div class="top-area">
+
+              <img src="images/second-section-3.png" alt="">
+
+              <div class="box-title">
+                <h4>DIVERSITY</h4>
+              </div>
+            </div>
+            <div class="text text-center">
+              <p>We are not the only ones
+                out there but what makes us different is our unique distinct ability to offer the best quality standards
+                at the most affordable prices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- third section end -->
+  <!-- four section start -->
+
+  <section class="four py-5">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center">
+          <h1>TRANSCRIPTION</h1>
+          <h3 class="mt-3">We are humbled to mention the acclamation we receive for the wide range of services we offer
+            but what truly sets us apart from the rest is our impeccable transcription services that are not only
+            exceptionally accurate but are excitingly affordable and served within the amazing turnaround time of 12 to
+            24 hours.</h3>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-5">
+          <div class="left-image">
+            <img src="images/third-section-left.png" class="styleImage" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12  mt-5">
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/third-section-1.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>VERBATIM TRANSCRIPTION</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/third-section-2.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>NON-VERBATIM TRANSCRIPTION</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-button">
+            <a href="#" class="button">Order Now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- four section end -->
+
+
+  <!-- five section start -->
+
+  <section class="four py-5 reverse">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center">
+          <h1>OUTSOURCING</h1>
+          <h3 class="mt-3">Business Process Outsourcing is not just our job, it’s our passion. It provides us the
+            opportunity to exercise our core value to the fullest as we help your business by sharing your burden of
+            branding and marketing your brand to it’s full outreach while you can focus entirely on your business’s
+            other crucial aspects.</h3>
+        </div>
+        <div class="col-md-6 col-sm-12  mt-5">
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/fifth-section-1.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>INBOUND CALLING SERVICES</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/fifth-section-1.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>NON-VERBATIM TRANSCRIPTION</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-button">
+            <a href="#" class="button">Find Out More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-5">
+          <div class="left-image">
+            <img src="images/fifth-section-right.png" class="styleImage" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- five section end -->
+
+  <!-- six section start -->
+
+  <section class="four py-5">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center">
+          <h1>CONVERSATIONAL ANALYTICS</h1>
+          <h3 class="mt-3">We are humbled to mention the acclamation we receive for the wide range of services we offer
+            but what truly sets us apart from the rest is our impeccable transcription services that are not only
+            exceptionally accurate but are excitingly affordable and served within the amazing turnaround time of 12 to
+            24 hours.</h3>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-5">
+          <div class="left-image">
+            <img src="images/six-section-left.png" class="styleImage" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12  mt-5">
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/third-section-2.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>VOICE CONVERSATIONAL ANALYTICS</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-four">
+            <div class="main">
+              <div class="left-icon">
+                <img src="images/third-section-1.png" alt="">
+              </div>
+              <div class="right-text-four">
+                <div class="content">
+                  <h4>NON-VERBATIM TRANSCRIPTION</h4>
+                  <p>We’ll transcribe your speech to its very precise details. From the interjections expressing your
+                    feelings like ”Alas!”, “Aha!” or ”Eww!” to informal utterances and stutters, all these details of
+                    verbal expression are transcribed precisely.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-button">
+            <a href="#" class="button">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- six section end -->
+
+
+  <section class="auto-writing">
+    <div class="container">
+      <div id="auto">
+        <h2> <span class="auto-wrting"></span></h2>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- section clients  -->
+  <section class="clients py-5">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center mb-4">
+          <h1>WHO WE WORK WITH</h1>
+          <h3 class="mt-3">You are who you surround yourself with. We take great pride and honor in expressing our
+            association with our great partners who have been our constant companions in this journey of mutual growth
+            and progress.</h3>
+        </div>
+     
+          <div class="col-md-4 col-sm-12 mt-5">
+
+            <img src="images/client-1.png" alt="">
+          </div>
+
+          <div class="col-md-4 col-sm-12 mt-5">
+
+            <img src="images/client-2.png" alt="">
+          </div>
+          <div class="col-md-4 col-sm-12 mt-5">
+
+            <img src="images/client-3.png" alt="">
+          </div>
+        </div>
+   
+    </div>
+    </div>
+  </section>
+
+
+  <!-- features  -->
+  <section class="features py-5">
+    <div class="container">
+      <div class="row">
+        <div class="heading-area text-center">
+          <h1>OUR PARTNERS</h1>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-5">
+          <div class="service">
+            <div class="image-area">
+              <img src="images/Dev-Studio-586x349.jpg" alt="">
+            </div>
+            <div class="inner-area">
+              <div class="text-ser">
+                STEM
+              </div>
+              <div class="icon-ser">
+                <i class="fa-solid fa-diamond"></i>
+                <span>0</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-5">
+          <div class="service">
+            <div class="image-area">
+              <img src="images/Dev-Studio-2jpg.jpg" alt="">
+            </div>
+            <div class="inner-area">
+              <div class="text-ser">
+                STEM
+              </div>
+              <div class="icon-ser">
+                <i class="fa-solid fa-diamond"></i>
+                <span>0</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-5">
+          <div class="service">
+            <div class="image-area">
+              <img src="images/Dev-Studio-3jpg.jpg" alt="">
+            </div>
+            <div class="inner-area">
+              <div class="text-ser">
+                STEM
+              </div>
+              <div class="icon-ser">
+                <i class="fa-solid fa-diamond"></i>
+                <span>0</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="f-first">
+            <img src="images/footer-loog.png" alt="">
+            <p>Fast growing professional services provider, your all in one contact center.</p>
+            <a href="#">Get started today.</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="footer-inner">
+            <h4>Contact Info</h4>
+            <ul>
+
+
+              <li>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <span>30 N Gould St, Ste 4654, Sheridan, WY 82801,
+                  USA</span>
+              </li>
+              <li><i class="fa-sharp fa-solid fa-phone"></i><span><a href="tel:+19159002219">+19159002219</a></span>
+              </li>
+              <li><i class="fa-solid fa-envelope"></i><span><a
+                    href="mailto:info@servixer.com">info@servixer.com</a></span>
+              </li>
+
+
+            </ul>
+
+          </div>
+          <div id="hb_soc_net_widget-2" class="widget-item hb-socials-widget">
+            <ul class="social-icons-footer d-flex gap-3">
+
+
+
+
+              <li class="facebook">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="twitter">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+
+              <li class="instagram">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="linkedin">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 ">
+          <h4>Find Us</h4>
+          <div class="footer-map mt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6644.183607153789!2d73.05634524631647!3d33.628861576582324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df94e703ecc673%3A0x1d243fc3f29bf03b!2sAsghar%20Mall%20Scheme%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1684398062010!5m2!1sen!2s"
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 text">Powered by Servixer</div>
+        <div class="col-md-8 col-sm-12">
+          <div class="footer-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js bootstrap script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="autotyping.min.js"></script>
+
+  <!-- slick  -->
+  <!-- jQuery CDN -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- slick Carousel CDN -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+</body>
+
+</html>
